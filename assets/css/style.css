@@ -365,8 +365,9 @@ h6 {
 }
 
 .logo img {
-  max-height: 26px;
-  margin-right: 6px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .logo span {
@@ -374,6 +375,8 @@ h6 {
   font-weight: 700;
   color: #012970;
   font-family: "Nunito", sans-serif;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .header {
