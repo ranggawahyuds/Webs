@@ -19,8 +19,9 @@ class registrasi extends CI_Controller
     {
 
         $post                = $this->input->post();
-        $this->form_validation->set_rules('name', 'name', 'required|trim', [
-            'required' => 'tidak boleh kosong'
+        $this->form_validation->set_rules('name', 'name', 'required|trim|is_unique[registrasi.name]', [
+            'required' => 'tidak boleh kosong',
+            'is_unique' => 'sudah ada',
         ]);
         if ($this->form_validation->run() == True) {
             $data = [
@@ -34,7 +35,7 @@ class registrasi extends CI_Controller
             redirect('admin/registrasi');
         } else {
             $data = [
-                'content'    => $this->folder . ('post'),
+                'content'    => $this->folder . ('registrasi'),
                 'section'    => $this->section
             ];
             $this->load->view('template/template', $data);

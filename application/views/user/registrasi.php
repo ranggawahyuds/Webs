@@ -2,11 +2,11 @@
 
 
     <section class="section">
-        <div class="row">
-            <div class="col-lg-9 mx-auto padding-1">
-
+        <div class="row" >
+            
+            <div class="col-lg-7 mx-auto mb-8">
                 <div class="card">
-                    <div class="card-body">
+                    <div class="card-body bg-black bg-opacity-25"  >
                         <h5 class="card-title">General Form Elements</h5>
 
                         <!-- General Form Elements -->
@@ -20,18 +20,18 @@
                             <div class="row mb-3">
                                 <label for="inputPassword" class="col-sm-2 col-form-label">Nim</label>
                                 <div class="col-sm-10">
-                                    <input type="text" class="form-control" name="nim">
+                                    <input type="number" class="form-control" name="nim">
                                 </div>
                             </div>
                             <fieldset class="row mb-3">
                                 <legend class="col-form-label col-sm-2 pt-0">Jenis Kelamin</legend>
                                 <div class="col-sm-9">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="jenis_kelamin" value="Laki - Laki">
+                                        <input class="form-check-input" type="radio" name="jenis_kelamin" value="Laki - Laki" required>
                                         Laki - Laki                                        
                                     </div>
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="jenis_kelamin" value="Perempuan"> 
+                                        <input class="form-check-input" type="radio" name="jenis_kelamin" value="Perempuan" required> 
                                         Perempuan
                                     </div>
 
@@ -82,7 +82,7 @@
                             <div class="row mb-3">
                                 <label for="inputNumber" class="col-sm-2 col-form-label">Surat Dari Kampus</label>
                                 <div class="col-sm-10">
-                                    <input class="form-control" type="file" id="formFile">
+                                    <input class="form-control" type="file" id="formFile" name="surat_kampus">
                                 </div>
                             </div>
                             <div class="row mb-5 mt-5">
