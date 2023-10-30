@@ -119,12 +119,12 @@ class Validation extends CI_Model
 				'rules'	=> 'required|rtrim',
 				'errors' => ['required' => 'Form <b>%s</b> tidak boleh kosong.']
 			],
-			[
+			/*[
 				'field'	=> 'lama_magang',
 				'label'	=> 'Lama Magang',
 				'rules'	=> 'required|rtrim',
 				'errors' => ['required' => 'Form <b>%s</b> tidak boleh kosong.']
-			]
+			]*/
 		];
 	}
 }
