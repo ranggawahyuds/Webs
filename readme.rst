@@ -1,71 +1,43 @@
-###################
-What is CodeIgniter
-###################
+<h1 align="center"> Pengajuan Magang Untuk Mahasiswa & Siswa Berbasis Website (SIAMANG)</h1>
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+<span align="center">
+[![Codeigniter](https://img.shields.io/badge/Codeigniter-3.0-red.svg)](https://www.codeigniter.com/) [![Bootstrap](https://img.shields.io/badge/Bootstrap-4.0-green.svg)](https://getbootstrap.com/docs/4.0/getting-started/introduction/) [![Admin LTE](https://img.shields.io/badge/AdminLTE-3.2-blue)](https://adminlte.io/themes/v3/index.html)
+</span>
 
-*******************
-Release Information
-*******************
+&emsp; &emsp; Ini adalah sistem informasi Anak Magang yang kami buat menggunakan Framework Codeigniter 3 untuk backend-nya dan framework bootstrap 4 untuk tampilannya. <br />
+.<br />
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
 
-**************************
-Changelog and New Features
-**************************
 
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+## Deskripsi
 
-*******************
-Server Requirements
-*******************
+Aplikasi pengajuan magang SIAMANG dirancang untuk memberikan kesempatan kepada mahasiswa dan siswa untuk mendapatkan pengalaman di bidang studi mereka. Aplikasi web ini berfungsi sebagai platform bagi mahasiswa dan siswa untuk mengajukan posisi magang di SIAMANG.
 
-PHP version 5.6 or newer is recommended.
 
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
+## Fitur
+Fitur yang tersedia diaplikasi ini adalah
+1. **Registrasi Pengguna**: Mahasiswa berkomunikasi kepada admin untuk pengajuan agar mendapatkan registrasi akun pengguna.
+2. **Pembuatan Profil**: Setelah mendapatkan akun, mahasiswa dapat membuat profil mereka, menyediakan detail seperti asal sekolah atau asal kampus.
+3. **Daftar Magang**: Aplikasi web ini menampilkan data untuk mendaftar magang.
+4. **Pengiriman Lamaran**: Mahasiswa dapat menjelajahi daftar magang dan mengirimkan surat pengajuan magang.
+5. **Pelacakan Status Lamaran**: Setelah mengajukan, mahasiswa atau siswa dapat melacak status pengajuan mereka melalui dasboard yang ada di akun tersebut.
+6. **Komunikasi**: Platform ini memfasilitasi komunikasi antara pelamar dan admin melalui pesan.
+7. **Panel Admin**: Administrator memiliki akses ke panel admin di mana mereka dapat mengelola daftar magang, meninjau lamaran, pembuatan akun dan berkomunikasi dengan pelamar.
 
-************
-Installation
-************
 
-Please see the `installation section <https://codeigniter.com/userguide3/installation/index.html>`_
-of the CodeIgniter User Guide.
 
-*******
-License
-*******
+## Teknologi yang Digunakan
 
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
+- *Frontend*: HTML, CSS, JavaScript
+- *Backend*: PHP
+- *Database*: MySql
+- *Bootstrap Theme*: AdminLTE
 
-*********
-Resources
-*********
+## Kontributor
 
--  `User Guide <https://codeigniter.com/docs>`_
--  `Contributing Guide <https://github.com/bcit-ci/CodeIgniter/blob/develop/contributing.md>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
+- [Rangga Wahyu Firnanda](https://github.com/ranggawahyuds)
 
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
 
-***************
-Acknowledgement
-***************
+## Lisensi
 
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
+Proyek ini dilisensikan di bawah [Lisensi MIT](LICENSE).
