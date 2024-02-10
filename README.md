@@ -1,10 +1,11 @@
 <h1 align="center"> Pengajuan Magang Untuk Mahasiswa & Siswa Berbasis Website (SIAMANG)</h1>
 
-<div align="center" >
+<span align="center">
+	
 [![Codeigniter](https://img.shields.io/badge/Codeigniter-3.0-red.svg)](https://www.codeigniter.com/)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-4.0-green.svg)](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
 [![SB Admin 2](https://img.shields.io/badge/%20-SB%20Admin%202-blue.svg)](https://startbootstrap.com/themes/sb-admin-2/)
-</div>
+</span>
 
 &emsp; &emsp; Ini adalah sistem informasi Anak Magang yang kami buat menggunakan Framework Codeigniter 3 untuk backend-nya dan framework bootstrap 4 untuk tampilannya. <br />
 .<br />
